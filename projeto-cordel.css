@@ -1,0 +1,91 @@
+
+        
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+        *{
+            margin: 0%;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            border: 1px solid black;
+            height: 267px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            
+        }
+      header > div{
+    margin-top: 60px;
+       }
+       header >  div > p{
+        font-size: 20px;
+       }
+       h1{
+       font-size: 130px;
+       font-family: var(--fonte2);
+       font-variant: small-caps;
+       }
+       a{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+       }
+       a:hover{
+        text-decoration: underline;
+       }
+       main  p{
+       margin-left: 30px;
+        font-size: 45px;
+        font-family: var(--fonte3);
+       }
+       section#back{
+       
+        background-image: url('../projeto-cordel-master/projeto-cordel-master/imagens/background001.jpg');
+        background-position: center;
+background-attachment:fixed ;
+       }
+       section#back1{
+   
+        background-image: url('../projeto-cordel-master/projeto-cordel-master/imagens/background002.jpg');
+        background-attachment:fixed;
+        background-position: center;
+       }
+       div.p{
+        background-image: url('projeto-cordel-master/projeto-cordel-master/imagens/background001.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 50px;
+       }
+       section > p.image{
+        background-color: black;
+        width: 600px;
+        color: white;
+        padding: 10px;
+       }
+       section > p{
+        padding-bottom:2em;
+       }
+       section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+      
+       }
+       footer{
+        background-color: black;
+        color: white;
+        
+       }
+       footer p{
+        margin-left: 30px;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+       }
